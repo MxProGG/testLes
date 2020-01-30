@@ -35,7 +35,7 @@ public class Main {
                 array.Array();*/
                 break;
             case 15:
-                System.out.println(String.format("Resul is work Lesson %d:\n",numLesson));;
+                System.out.println(String.format("Resul is work Lesson %d:\n",numLesson));
                 Lesson15.Strings();
                 break;
             case 16:
@@ -56,6 +56,7 @@ public class Main {
                 break;
             default:
                 System.out.println("Entered lesson is not found!");
+                System.out.println();
         }
 
     }
