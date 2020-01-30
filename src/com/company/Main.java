@@ -20,7 +20,7 @@ public class Main {
 
         Scanner inputLesson = new Scanner(System.in);
         System.out.println("Input number lesson: ");
-        System.out.println("Input number lesson: ");
+
         int numLesson = inputLesson.nextInt();
 
         switch (numLesson) {
