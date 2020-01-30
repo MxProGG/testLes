@@ -6,6 +6,7 @@ import com.company.lesson16.Lesson16;
 import com.company.lesson17.Lesson17;
 import com.company.lesson18.Lesson18;
 import com.company.lesson20_21.Lesson20_21;
+import com.company.lesson22_23.Lesson22_23;
 
 import java.util.Scanner;
 import java.lang.String;
@@ -17,8 +18,8 @@ public class Main {
 
         Scanner inputLesson = new Scanner(System.in);
         System.out.println("Input number lesson: ");
-        System.out.println("Input number lesson: ");
         int numLesson = inputLesson.nextInt();
+
 
 
         switch (numLesson) {
@@ -55,9 +56,13 @@ public class Main {
                 System.out.printf("Resul is work Lesson %d:\n", numLesson);
                 Lesson20_21.setAndMap();
                 break;
+            case 22:
+                System.out.printf("Resul is work Lesson %d:\n", numLesson);
+                Lesson22_23.Methodd();
+                break;
             default:
                 System.out.println("Entered lesson is not found!");
-                System.out.println();
+
         }
 
     }
