@@ -7,6 +7,7 @@ import com.company.lesson17.Lesson17;
 import com.company.lesson18.Lesson18;
 import com.company.lesson20_21.Lesson20_21;
 import com.company.lesson22_23.Lesson22_23;
+import com.company.lesson24.Lesson24;
 
 import java.util.Scanner;
 import java.lang.String;
@@ -59,6 +60,10 @@ public class Main {
             case 22:
                 System.out.printf("Resul is work Lesson %d:\n", numLesson);
                 Lesson22_23.Methodd();
+                break;
+            case 24:
+                System.out.printf("Resul is work Lesson %d:\n", numLesson);
+                Lesson24.exception();
                 break;
             default:
                 System.out.println("Entered lesson is not found!");
