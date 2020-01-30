@@ -13,9 +13,10 @@ public class Lesson22_23 {
     }
 
     static int getSumm(int x, int y, int z){
-        int sum = x + y + z;
-        return sum;
+
+        return x + y + z;
    }
+
 
    static void showSum(int x, int y, int b, String n){
         int s = x + y + b;
