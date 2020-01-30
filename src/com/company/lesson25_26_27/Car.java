@@ -2,6 +2,11 @@ package com.company.lesson25_26_27;
 
 public class Car {
 
+    final static int VAR = 100;
+    static void method(){
+        System.out.println(" O_o ");
+    }
+
     public Car(){
         System.out.println("New car created");
 
@@ -32,7 +37,8 @@ public class Car {
         this.weight += weight;
         System.out.println("new weight: " + this.weight);
         }
-        public void driver(int speed){
+
+    public void driver(int speed){
 
         if (weight<=maxWeight){
             this.speed += speed;

@@ -5,6 +5,8 @@ public class Lesson25_26_27 {
 
     public static void releaseClass (){
 
+        System.out.println(Car.VAR);
+        Car.method();
         Car car1 = new Car();
         car1.color = "black";
         car1.lenght = 5000;

@@ -8,8 +8,8 @@ import com.company.lesson18.Lesson18;
 import com.company.lesson20_21.Lesson20_21;
 import com.company.lesson22_23.Lesson22_23;
 import com.company.lesson24.Lesson24;
+import com.company.lesson25_26_27.Car;
 import com.company.lesson25_26_27.Lesson25_26_27;
-
 import java.util.Scanner;
 import java.lang.String;
 
@@ -67,6 +67,8 @@ public class Main {
             case 25:
                 System.out.printf("Resul is work Lesson %d:\n", numLesson);
                 Lesson25_26_27.releaseClass();
+                /*Car var = new Car("rrrrrrrrrrr");
+                System.out.println(var);*/
                 break;
             default:
                 System.out.println("Entered lesson is not found!");
