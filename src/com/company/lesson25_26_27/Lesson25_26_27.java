@@ -53,7 +53,15 @@ public class Lesson25_26_27 {
             dog.sound();
             cat.sound();
             break;
+        case 31:
+            CatAbstruct cata = new CatAbstruct();
+            DogAbstruct doga = new DogAbstruct();
 
+            doga.walk("park");
+            doga.saySmth();
+            cata.saySmth();
+
+            break;
 
     }
 
