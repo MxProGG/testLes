@@ -10,6 +10,8 @@ import com.company.lesson22_23.Lesson22_23;
 import com.company.lesson24.Lesson24;
 import com.company.lesson25_26_27.Car;
 import com.company.lesson25_26_27.Lesson25_26_27;
+import com.company.lesson32.Lesson32;
+
 import java.util.Scanner;
 import java.lang.String;
 
@@ -70,6 +72,10 @@ public class Main {
                 Lesson25_26_27.releaseClass();
                 /*Car var = new Car("rrrrrrrrrrr");
                 System.out.println(var);*/
+                break;
+            case 32:
+                System.out.printf("Resul is work Lesson %d:\n", numLesson);
+                Lesson32.interfaceLes();
                 break;
             default:
                 System.out.println("Entered lesson is not found!");
