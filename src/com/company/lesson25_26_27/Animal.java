@@ -12,4 +12,9 @@ public class Animal {
     public void color(String color){
         System.out.println("Color is " + color);
     }
+
+    public  void sound(){
+        System.out.println("Hi");
+    }
+
 }

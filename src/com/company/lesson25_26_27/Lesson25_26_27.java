@@ -50,6 +50,8 @@ public class Lesson25_26_27 {
 
             System.out.println("Cat clor is " + cat.color);
             System.out.println("Dog clor is " + dog.color);
+            dog.sound();
+            cat.sound();
             break;
 
 
